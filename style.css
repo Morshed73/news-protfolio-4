@@ -1,0 +1,129 @@
+*{
+    height: ;
+    width: ;
+}
+p{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Oswald', sans-serif;
+}
+/* header */
+.header{
+    background-color: rgb(183, 130, 214);
+    height: 400px;
+}
+.banner-heading{
+    color: rgb(83, 82, 82);
+    margin-top: 70px;
+    text-align: center;
+}
+.banner-button{
+    color: #ffffff;
+    background-color: rgb(142, 82, 177);
+    border-radius: 4px;
+    padding: 8px 14px;
+    margin-top: 50px;
+    border: none;
+    outline: none;
+}
+.banner-button:hover{
+    background-color: #ffffff;
+    color: rgb(83, 82, 82);
+    font-size: 120%;
+}
+/* navbar */
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(83, 82, 82);
+}
+.navbar ul li a:hover{
+    background-color: #ffffff;
+    font-size: 120%;
+    border-radius: 4px;
+}
+.navbar-brand{
+    font-size: 25px;
+    color: rgb(83, 82, 82);
+}
+.navbar-brand:hover{
+    color: #ffffff;
+    font-size: 170%;
+}
+/* slider */
+.slider{
+    margin-top: 100px;
+}
+.d-block{
+    height: 600px;
+    width: auto;
+}
+/* blog */
+.blog{
+    margin-top: 100px;
+    overflow: hidden;
+}
+.first-blog{
+    margin-bottom: 40px;
+    border: none;
+    background-color: rgb(238, 237, 237);
+}
+.secound-blog{
+    margin-top: 80px;
+    border: none;
+    background-color: rgb(238, 237, 237);
+}
+.blog-photo-inner{
+    height: 300px;
+    width: 355px;
+    display: block;
+}
+.blog-text{
+    padding: 30px 10px;
+    display: block;
+    font-size: 20px;
+    color: rgb(83, 82, 82);
+}
+/* about */
+.about{
+    margin-top: 100px;
+}
+.hero-image{
+    background-image: linear-gradient(rgb(142, 82, 177, 0.5), rgb(142, 82, 177, 0.5)), url("images/hero.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.hero-text{
+    text-align: center;
+    color: #ffffff;
+    padding: 60px 300px;
+}
+.hero-info{
+    font-size: 19px;
+}
+.buy-button{
+    color: #ffffff;
+    background-color: rgb(142, 82, 177);
+    border-radius: 4px;
+    padding: 8px 14px;
+    margin-top: 50px;
+    border: none;
+    outline: none;
+}
+.buy-button:hover{
+    background-color: #ffffff;
+    color: rgb(83, 82, 82);
+    font-size: 120%;
+}
+/* footer copy right */
+.copy-right{
+    text-align: center;
+    padding: 60px 0px;
+}
+.copy-right-alart{
+    font-size: 20px;
+    color: rgb(82, 79, 79);
+}
